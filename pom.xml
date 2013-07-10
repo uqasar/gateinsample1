@@ -96,19 +96,19 @@
 	</repository>
 	<!-- UQASAR THIRDPARTY -->	
 	<repository>
-	    <id>ubitech-thirdparty</id>
+	    <id>uqasar-thirdparty</id>
 	    <name>UQASAR thirdparty</name>
 	    <url>http://dev.uqasar.eu/nexus/content/repositories/thirdparty/</url>
 	</repository>	
 	<!-- UQASAR RELEASES -->	
 	<repository>
-	    <id>ubitech-releases</id>
+	    <id>uqasar-releases</id>
 	    <name>UQASAR release repository</name>
 	    <url>http://dev.uqasar.eu/nexus/content/repositories/releases/</url>
 	</repository>
 	<!-- UQASAR SNAPSHOTS -->
 	<repository>
-	    <id>ubitech-snapshots</id>
+	    <id>uqasar-snapshots</id>
 	    <name>UQASAR snapshot repository</name>
 	    <url>http://dev.uqasar.eu/nexus/content/repositories/snapshots/</url>
 	</repository>
@@ -134,20 +134,18 @@
             <distributionManagement>
                 <repository>
                     <uniqueVersion>true</uniqueVersion>
-                    <id>ubitech-releases</id>
+                    <id>uqasar-releases</id>
                     <name>UQASAR release repository</name>
                     <url>http://dev.uqasar.eu/nexus/content/repositories/releases/</url>
                 </repository>
                 <snapshotRepository>
-                    <id>ubitech-snapshots</id>
+                    <id>uqasar-snapshots</id>
                     <name>UQASAR snapshot repository</name>
                     <url>http://dev.uqasar.eu/nexus/content/repositories/snapshots/</url>
                 </snapshotRepository>
             </distributionManagement>
-        </profile>
-	
-    </profiles>	
-	
+        </profile>	
     
+  </profiles>		
 	
 </project>
