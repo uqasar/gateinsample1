@@ -9,6 +9,7 @@
 	<name>UserRegistration</name>
 	<url>http://www.demo.uqasar.eu</url>
 	<description>UserRegistration Module</description>
+
  
    <properties>
         <project.source.charset>UTF-8</project.source.charset>
